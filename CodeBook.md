@@ -41,38 +41,27 @@ The following files are available for the train and test data. Their description
 - Appropriately label the data set with descriptive variable names. 
 - From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-##The job was done:
-- Train and test data were joined in one data set using 'train/X_train.txt', 'train/y_train.txt', 'test/X_test.txt' and 'test/y_test.txt' files. Subject ids also included from the 'train/subject_train.txt' and 'test/subject_test.txt' files.
-- Only the measurements on the mean and standard deviation were extracted. Other measurements were discarded. The measurements conform 'features.txt' file.
-- Each variable got appropriate label according to 'features.txt' file.
-- Activity variable was named according to 'activity_labels.txt' file
-- 
+##My 'run_analysis.R' script was written. It executes the following job:
+- Joins train and test data in a single data set using 'train/X_train.txt', 'train/y_train.txt', 'test/X_test.txt' and 'test/y_test.txt' files. Subject ids also includes from the 'train/subject_train.txt' and 'test/subject_test.txt' files.
+- Extracts only the measurements on the mean and standard deviation from the data set. Discards other measurements. The measurements conform 'features.txt' file.
+- Assings appropriate label to each variable according to 'features.txt' file.
+- Fills the activity variable with descriptive names according to 'activity_labels.txt' file
+- Creates a second data set with the average of each variable for each activity and each subject. 
+- Saves the second data set to 'average_by_subj_and_activity.txt' file.
 
-5. Creating an independent tidy data set with the average of each variable for each activity and each subject.
-
-
-Some additional notes (if avaialble, otherwise you can leave this section out).
-
-Creating the tidy datafile
-
-Guide to create the tidy data file
-
-Description on how to create the tidy data file (1. download the data, ...)/
-
-Cleaning of the data
-
-Short, high-level description of what the cleaning script does. link to the readme document that describes the code in greater detail
+See 'readme.md' file to get information how to use the script.
 
 =============================================================
 ##Data Dictionary - Average by subject and activity data set
 
 ###Description of the variables
 
-1. subject_id. 
-    Identifies the subject who performed the activity. 
-    Its range is from 1 to 30.
+| No | Variable name | Type  | Description |
+|----|---------------|-------|-------------|
+|1.  | subject_id  | Integer, 1 .. 30| Identifies the subject who performed the activity |
+|2. | activity  |  One of list: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING. | The name of activity performed by person wearing a smartphone (Samsung Galaxy S II) on the waist. |
 
-2. activity. 
+
     The name of activity performed by person wearing a smartphone (Samsung Galaxy S II) on the waist.
     One of list: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
 
