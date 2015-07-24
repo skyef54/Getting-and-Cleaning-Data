@@ -71,34 +71,14 @@ See 'readme.md' file to get information how to use the script.
 |10 | tGravityAcc_mean_Y |    Average value of mean gravity acceleration signal, Y direction, time domain|    Numeric|
 | 11|tGravityAcc_mean_Z |    Average value of mean gravity acceleration signal, Z direction, time domain|    Numeric|
 |12 |tGravityAcc_std_X |    Average value of standard deviation gravity acceleration signal, X direction, time domain|    Numeric|
- 
-13 tGravityAcc_std_Y 
-    Average value of standard deviation gravity acceleration signal, Y direction, time domain
-    Numeric
- 
-14 tGravityAcc_std_Z 
-    Average value of standard deviation gravity acceleration signal, Z direction, time domain
-    Numeric
- 
-15 tBodyAccJerk_mean_X 
-    Average value of mean body acceleration Jerk signal, X direction, time domain
-    Numeric
- 
-16 tBodyAccJerk_mean_Y 
-    Average value of mean body acceleration Jerk signal, Y direction, time domain
-    Numeric
- 
-17 tBodyAccJerk_mean_Z 
-    Average value of mean body acceleration Jerk signal, Z direction, time domain
-    Numeric
- 
-18 tBodyAccJerk_std_X 
-    Average value of standard deviation body acceleration Jerk signal, X direction, time domain
-    Numeric
- 
-19 tBodyAccJerk_std_Y 
-    Average value of standard deviation body acceleration Jerk signal, Y direction, time domain
-    Numeric
+|13 |tGravityAcc_std_Y |    Average value of standard deviation gravity acceleration signal, Y direction, time domain|    Numeric|
+|14 |tGravityAcc_std_Z |    Average value of standard deviation gravity acceleration signal, Z direction, time domain|    Numeric|
+|15 |tBodyAccJerk_mean_X |    Average value of mean body acceleration Jerk signal, X direction, time domain|    Numeric|
+|16 |tBodyAccJerk_mean_Y |    Average value of mean body acceleration Jerk signal, Y direction, time domain|    Numeric|
+|17 |tBodyAccJerk_mean_Z |    Average value of mean body acceleration Jerk signal, Z direction, time domain|    Numeric|
+|0 | tBodyAccJerk_std_X |    Average value of standard deviation body acceleration Jerk signal, X direction, time domain|    Numeric|
+|0| tBodyAccJerk_std_Y |    Average value of standard deviation body acceleration Jerk signal, Y direction, time domain|    Numeric|
+
  
 20 tBodyAccJerk_std_Z 
     Average value of standard deviation body acceleration Jerk signal, Z direction, time domain
