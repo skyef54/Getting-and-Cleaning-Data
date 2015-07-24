@@ -12,4 +12,3 @@ Some more comments about my script.
 - It loads required libraries automatically. But the libraries have to be already installed. See step 2.
 - My script "knows" that it works in "UCI HAR Dataset" folder. So step 3 is very important.
 
-
