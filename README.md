@@ -1,4 +1,4 @@
-#Getting and Cleaning Data Cousera Course Project 
+#Getting and Cleaning Data Course Project 
 
 This is ReadMe file for my "run_analysis.R" script.
 To get proper result follow next steps.
