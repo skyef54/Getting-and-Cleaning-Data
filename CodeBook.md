@@ -1,6 +1,6 @@
-#This is Getting and Cleaning Data Course Project.
+#Getting and Cleaning Data Course Project.
 
-This work is intended to collecting, working with, and cleaning a data set. The goal is to prepare tidy data that can be used for later analysis. Human Activity Recognition Using Smartphones Dataset have been used as a original data. The source data for the project: 
+This work is intended for collecting, working with, and cleaning a data set. The goal is to prepare tidy data that can be used for later analysis. Human Activity Recognition Using Smartphones Dataset have been used as a original data. The source data for the project: 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 A full description is available at the site where the data was obtained: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
