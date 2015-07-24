@@ -41,7 +41,8 @@ The following files are available for the train and test data. Their description
 - Appropriately label the data set with descriptive variable names. 
 - From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-##My 'run_analysis.R' script was written. It executes the following job:
+##'Run_analysis.R' script
+The script makes the following job:
 - Joins train and test data in a single data set using 'train/X_train.txt', 'train/y_train.txt', 'test/X_test.txt' and 'test/y_test.txt' files. Subject ids also includes from the 'train/subject_train.txt' and 'test/subject_test.txt' files.
 - Extracts only the measurements on the mean and standard deviation from the data set. Discards other measurements. The measurements conform 'features.txt' file.
 - Assings appropriate label to each variable according to 'features.txt' file.
@@ -56,18 +57,11 @@ See 'readme.md' file to get information how to use the script.
 
 ###Description of the variables
 
-| No | Variable name | Type  | Description |
+| No | Name | Description | Type  | 
 |----|---------------|-------|-------------|
-|1.  | subject_id  | Integer, 1 .. 30| Identifies the subject who performed the activity |
-|2. | activity  |  One of list: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING. | The name of activity performed by person wearing a smartphone (Samsung Galaxy S II) on the waist. |
-
-
-    The name of activity performed by person wearing a smartphone (Samsung Galaxy S II) on the waist.
-    One of list: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
-
-3. tBodyAcc_mean_X. 
-    Average value of mean body acceleration signal, X direction, time domain.
-    Numeric.
+|1.  | subject_id  | Identifies the subject who performed the activity | Integer, 1 ... 30|
+|2. | activity  | The name of activity performed by person wearing a smartphone (Samsung Galaxy S II) on the waist. | One of list: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.|
+|3. | tBodyAcc_mean_X | Activityverage value of mean body acceleration signal, X direction, time domain.  | Numeric |
  
 4. tBodyAcc_mean_Y. 
     Average value of mean body acceleration signal, Y direction, time domain.
