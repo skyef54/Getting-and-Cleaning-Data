@@ -170,108 +170,30 @@ See 'readme.md' file to get information how to use the script.
 |53 |fBodyAccJerk_mean_Y |    Average value of mean body acceleration Jerk signal, Y direction, frequency domain|    Numeric|
 |54 |fBodyAccJerk_mean_Z |    Average value of mean body acceleration Jerk signal, Z direction, frequency domain|    Numeric|
 |55 |fBodyAccJerk_std_X |    Average value of standard deviation body acceleration Jerk signal, X direction, frequency domain|    Numeric|
- 
-56 fBodyAccJerk_std_Y 
-    Average value of standard deviation body acceleration Jerk signal, Y direction, frequency domain
-    Numeric
- 
-57 fBodyAccJerk_std_Z 
-    Average value of standard deviation body acceleration Jerk signal, Z direction, frequency domain
-    Numeric
- 
-58 fBodyAccJerk_meanFreq_X 
-    Average value of weighted average of the frequency components body acceleration Jerk signal, X direction, frequency domain
-    Numeric
- 
-59 fBodyAccJerk_meanFreq_Y 
-    Average value of weighted average of the frequency components body acceleration Jerk signal, Y direction, frequency domain
-    Numeric
- 
-60 fBodyAccJerk_meanFreq_Z 
-    Average value of weighted average of the frequency components body acceleration Jerk signal, Z direction, frequency domain
-    Numeric
-
-61 fBodyGyro_mean_X 
-    Average value of mean body gyroscope signal, X direction, frequency domain
-    Numeric
- 
-62 fBodyGyro_mean_Y 
-    Average value of mean body gyroscope signal, Y direction, frequency domain
-    Numeric
- 
-63 fBodyGyro_mean_Z 
-    Average value of mean body gyroscope signal, Z direction, frequency domain
-    Numeric
- 
-64 fBodyGyro_std_X 
-    Average value of standard deviation body gyroscope signal, X direction, frequency domain
-    Numeric
- 
-65 fBodyGyro_std_Y 
-    Average value of standard deviation body gyroscope signal, Y direction, frequency domain
-    Numeric
- 
-66 fBodyGyro_std_Z 
-    Average value of standard deviation body gyroscope signal, Z direction, frequency domain
-    Numeric
- 
-67 fBodyGyro_meanFreq_X 
-    Average value of weighted average of the frequency components body gyroscope signal, X direction, frequency domain
-    Numeric
- 
-68 fBodyGyro_meanFreq_Y 
-    Average value of weighted average of the frequency components body gyroscope signal, Y direction, frequency domain
-    Numeric
- 
-69 fBodyGyro_meanFreq_Z 
-    Average value of weighted average of the frequency components body gyroscope signal, Z direction, frequency domain
-    Numeric
-
-70 fBodyAccMag_mean 
-    Average value of mean of magnitude body acceleration signal, frequency domain
-    Numeric
- 
-71 fBodyAccMag_std 
-    Average value of standard deviation of magnitude body acceleration signal, frequency domain
-    Numeric
-
-72 fBodyAccMag_meanFreq 
-    Average value of weighted average of the frequency components of magnitude body acceleration signal, frequency domain
-    Numeric    
-
-73 fBodyBodyAccJerkMag_mean 
-    Average value of mean of magnitude body acceleration Jerk signal, frequency domain
-    Numeric
- 
-74 fBodyBodyAccJerkMag_std 
-    Average value of standard deviation of magnitude body acceleration Jerk signal, frequency domain
-    Numeric
- 
-75 fBodyBodyAccJerkMag_meanFreq 
-    Average value of weighted average of the frequency components of magnitude body acceleration Jerk signal, frequency domain
-    Numeric
- 
-76 fBodyBodyGyroMag_mean 
-    Average value of mean of magnitude body gyroscope signal, frequency domain
-    Numeric
- 
-77 fBodyBodyGyroMag_std 
-    Average value of standard deviation of magnitude body gyroscope signal, frequency domain
-    Numeric
-    
-78 fBodyBodyGyroMag_meanFreq 
-    Average value of weighted average of the frequency components of magnitude body gyroscope signal, frequency domain
-    Numeric
- 
-79 fBodyBodyGyroJerkMag_mean 
-    Average value of mean of magnitude body gyroscope Jerk signal, frequency domain
-    Numeric
- 
-80 fBodyBodyGyroJerkMag_std 
-    Average value of standard deviation of magnitude body gyroscope Jerk signal, frequency domain
-    Numeric
-
-81 fBodyBodyGyroJerkMag_meanFreq 
-    Average value of weighted average of the frequency components of magnitude body gyroscope Jerk signal, frequency domain
-    Numeric
+|56 |fBodyAccJerk_std_Y |    Average value of standard deviation body acceleration Jerk signal, Y direction, frequency domain|    Numeric|
+|57 |fBodyAccJerk_std_Z |    Average value of standard deviation body acceleration Jerk signal, Z direction, frequency domain|    Numeric|
+|58 |fBodyAccJerk_meanFreq_X |    Average value of weighted average of the frequency components body acceleration Jerk signal, X direction, frequency domain|    Numeric|
+|59 |fBodyAccJerk_meanFreq_Y |    Average value of weighted average of the frequency components body acceleration Jerk signal, Y direction, frequency domain|    Numeric|
+|60 |fBodyAccJerk_meanFreq_Z |    Average value of weighted average of the frequency components body acceleration Jerk signal, Z direction, frequency domain|    Numeric|
+|61 |fBodyGyro_mean_X |    Average value of mean body gyroscope signal, X direction, frequency domain|    Numeric|
+|62 |fBodyGyro_mean_Y |    Average value of mean body gyroscope signal, Y direction, frequency domain|    Numeric|
+|63 |fBodyGyro_mean_Z |    Average value of mean body gyroscope signal, Z direction, frequency domain|    Numeric|
+|64 |fBodyGyro_std_X |    Average value of standard deviation body gyroscope signal, X direction, frequency domain|    Numeric|
+|65 |fBodyGyro_std_Y |    Average value of standard deviation body gyroscope signal, Y direction, frequency domain|    Numeric|
+|66 |fBodyGyro_std_Z |    Average value of standard deviation body gyroscope signal, Z direction, frequency domain|    Numeric|
+|67 |fBodyGyro_meanFreq_X |    Average value of weighted average of the frequency components body gyroscope signal, X direction, frequency domain|    Numeric|
+|68 |fBodyGyro_meanFreq_Y |    Average value of weighted average of the frequency components body gyroscope signal, Y direction, frequency domain|    Numeric|
+|69 |fBodyGyro_meanFreq_Z |    Average value of weighted average of the frequency components body gyroscope signal, Z direction, frequency domain|    Numeric|
+|70 |fBodyAccMag_mean |    Average value of mean of magnitude body acceleration signal, frequency domain|    Numeric|
+|71 |fBodyAccMag_std |    Average value of standard deviation of magnitude body acceleration signal, frequency domain|    Numeric|
+|72 |fBodyAccMag_meanFreq |    Average value of weighted average of the frequency components of magnitude body acceleration signal, frequency domain|    Numeric    |
+|73 |fBodyBodyAccJerkMag_mean |    Average value of mean of magnitude body acceleration Jerk signal, frequency domain|    Numeric|
+|74 |fBodyBodyAccJerkMag_std |    Average value of standard deviation of magnitude body acceleration Jerk signal, frequency domain|    Numeric|
+|75 |fBodyBodyAccJerkMag_meanFreq |    Average value of weighted average of the frequency components of magnitude body acceleration Jerk signal, frequency domain|    Numeric|
+|76 |fBodyBodyGyroMag_mean |    Average value of mean of magnitude body gyroscope signal, frequency domain|    Numeric|
+|77 |fBodyBodyGyroMag_std |    Average value of standard deviation of magnitude body gyroscope signal, frequency domain|    Numeric|
+|78 |fBodyBodyGyroMag_meanFreq |    Average value of weighted average of the frequency components of magnitude body gyroscope signal, frequency domain|    Numeric|
+|79 |fBodyBodyGyroJerkMag_mean |    Average value of mean of magnitude body gyroscope Jerk signal, frequency domain|    Numeric|
+|80 |fBodyBodyGyroJerkMag_std |    Average value of standard deviation of magnitude body gyroscope Jerk signal, frequency domain|    Numeric|
+|81 |fBodyBodyGyroJerkMag_meanFreq |    Average value of weighted average of the frequency components of magnitude body gyroscope Jerk signal, frequency domain|    Numeric|
  
