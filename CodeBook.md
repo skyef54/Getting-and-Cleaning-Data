@@ -41,11 +41,13 @@ The following files are available for the train and test data. Their description
 - Appropriately label the data set with descriptive variable names. 
 - From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-Next steps was made according to given task: 
-1. Merging of the training and the test sets to create one data set.
-2. Extracting only the measurements on the mean and standard deviation for each measurement. 
-3. Naming the activities in the data set by using descriptive activity names
-4. Assigning appropriate labels to the data set with descriptive variable names. 
+##The job was done:
+- Train and test data were joined in one data set using 'train/X_train.txt', 'train/y_train.txt', 'test/X_test.txt' and 'test/y_test.txt' files. Subject ids also included from the 'train/subject_train.txt' and 'test/subject_test.txt' files.
+- Only the measurements on the mean and standard deviation were extracted. Other measurements were discarded. The measurements conform 'features.txt' file.
+- Each variable got appropriate label according to 'features.txt' file.
+- Activity variable was named according to 'activity_labels.txt' file
+- 
+
 5. Creating an independent tidy data set with the average of each variable for each activity and each subject.
 
 
